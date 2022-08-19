@@ -1,0 +1,95 @@
+/* RESET CSS */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+}
+
+/* HEADER - MENU */
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    height: 5em;
+}
+
+.menu-logo-box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;   
+}
+
+.menu-logo-icon {
+  width: 40px;
+  height: 40px;   
+}
+
+.menu-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* MAIN - CONTENT */
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 480px;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  gap: 20px;   
+}
+
+.content-buttons, .content-buttons-box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;  
+}
+
+.content-buttons {
+    gap: 20px;   
+}
+
+.content-title, .content-subtext, .content-buttons {
+  width: 70%;
+  text-align: center;
+  line-height: 2;
+}
+
+.content-title {
+    font-size: 4em;
+    text-transform: uppercase;  
+}
+
+.content-subtext {
+    font-size: 1.2em;   
+}
+
+.content-button-login, .content-button-download-link {
+    font-size: 1.5em;    
+}
+
+.content-button-download-icon {
+    width: 40px;
+    height: 40px;
+}
+    
+/* FOOTER */
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;   
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+    background-image:url("../images/background_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+a {
+    text-decoration: none;
+    color: black;   
+}
+
+/* MENU */
+.menu-logo-icon {
+    background-color: white;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.menu-logo-text {
+    font-family: 'Staatliches', cursive;
+    font-weight: normal;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-links a{
+    font-family: 'Inter', sans-serif;
+    font-weight: light;
+    color: white;
+}
+
+.menu-links a:hover{
+    text-decoration: underline;
+}
+
+.menu-button-login {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background-color:white;
+    color:black;
+    padding:1em;
+    border-radius:20px;
+}
+
+.menu-button-login:hover{
+    color: rgb(61, 78, 224);
+    box-shadow: 0 5px 15px 5px rgb(61, 61, 61);
+    border: solid 1px white;
+    cursor: pointer;
+}
+
+/* MAIN CONTENT */
+.content-title {
+    font-family: 'Titan One', cursive;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+}
+
+.content-subtext {
+    font-family: 'Inter', sans-serif;
+    font-weight: light;
+    color: white;
+}
+
+.content-button-download-icon {
+    background-color: white;
+}
+
+.content-buttons-box, .content-button-login {
+    font-family: 'Inter', sans-serif;
+    font-weight: light;
+    padding: 0 2em;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.content-buttons-box:hover, .content-button-login:hover {
+    box-shadow: 0 5px 15px 5px rgb(61, 61, 61);
+}
+
+.content-button-download-link:hover {
+    color: rgb(61, 78, 224);
+}
+
+.content-button-login:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+.content-button-download-link {
+    color: black;
+    background-color: white;
+}
+
+.content-button-login {
+    color: white;
+    background-color: rgb(35,39,42);
+}
+
+/* FOOTER */
+.link-text,.footer-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: light;
+}
+
+.link-text {
+  color: white;   
+}
+
+.footer-link {
+    color:cyan;
+}
